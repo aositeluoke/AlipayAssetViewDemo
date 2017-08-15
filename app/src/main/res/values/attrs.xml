@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--
+      <attr name="first_color" format="color" />  对应于余额的颜色
+        <attr name="second_color" format="color" />  余额宝的颜色
+        <attr name="third_color" format="color" />   定期颜色
+        <attr name="fourth_color" format="color" />  基金颜色
+        <attr name="ring_width" format="dimension" />  圆环的宽度
+    -->
+    <declare-styleable name="AlipayAssetsView">
+        <attr name="first_color" format="color" />
+        <attr name="second_color" format="color" />
+        <attr name="third_color" format="color" />
+        <attr name="fourth_color" format="color" />
+        <attr name="ring_width" format="dimension" />
+    </declare-styleable>
+</resources>

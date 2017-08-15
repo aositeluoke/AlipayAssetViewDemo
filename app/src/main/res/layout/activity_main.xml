@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/holo_blue_dark"
+    android:gravity="center"
+    android:orientation="vertical">
+
+
+    <com.aositeluoke.alipayassetviewdemo.AlipayAssetsView
+        android:id="@+id/alipayAssetsView"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_centerInParent="true"
+        android:visibility="visible"
+        app:first_color="#fba62e"
+        app:fourth_color="#5495ff"
+        app:ring_width="60dp"
+        app:second_color="#f26a55"
+        app:third_color="#2467b1" />
+
+
+    <Button
+        android:id="@+id/btn_start"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="开始"
+        android:visibility="visible" />
+
+
+</LinearLayout>
